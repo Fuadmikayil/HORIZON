@@ -14,7 +14,6 @@ header{
 .header_nav{
     display: flex;
     width: 100%;
-    width: 100%;
     align-items: start;
 }
 header>.logo_text{
@@ -27,6 +26,7 @@ header>.logo_text>h5{
     
 }
 header>.logo_text>h2{
+    color: white;
     color: white;
     
 }
