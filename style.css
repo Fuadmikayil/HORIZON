@@ -99,4 +99,44 @@ header>.main_right>.input_main>input::placeholder {
   nav>.nav_mean>a>i{
     padding-right: 10px;
   }
+  nav>.Upgrade{
+    width: 210px;
+    background: linear-gradient(135deg, #868CFF 0%, #4318FF 100%);
+    height: 170px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 24px ;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 10px;
+  }
+  nav>.Upgrade>.Upgrade_icon{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 5px solid #111C44;
+    background: linear-gradient(135deg, #868CFF 0%, #4318FF 100%);
+  }
+  nav>.Upgrade>h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  nav>.Upgrade>h5{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+  }
   /*Nav End*/
