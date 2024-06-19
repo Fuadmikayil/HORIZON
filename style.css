@@ -175,10 +175,11 @@ nav>.Upgrade>h5 {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .header_main>.hiro>.dashboard_div {
-  width: 200px;
+  width: 195px;
   padding: 10px ;
   border-radius: 23px;
   background: rgba(17, 28, 68, 1);
