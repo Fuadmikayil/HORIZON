@@ -222,4 +222,17 @@ nav>.Upgrade>h5 {
   object-fit: cover;
   margin-left: 5px;
 }
+.header_main>.Total{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+.header_main>.Total>.dashboard{
+  width: calc(100% / 2 - 10px);
+  background: rgba(17, 28, 68, 1);
+  height: 300px;
+  border-radius: 20px;
+}
 /*Header Main End*/
