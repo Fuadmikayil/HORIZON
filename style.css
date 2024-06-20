@@ -235,4 +235,23 @@ nav>.Upgrade>h5 {
   height: 300px;
   border-radius: 20px;
 }
+.header_main>.Total>.dashboard>.dashboard_text{
+  padding: 25px;
+}
+.header_main>.Total>.dashboard>.dashboard_text>.dashboard_input{
+  background-color: rgba(27, 37, 75, 1);
+  color: white;
+  display: flex;
+  gap: 5px;
+  width: 130px;
+  padding: 5px;
+  align-items: center;
+  border-radius: 7px;
+}
+.header_main>.Total>.dashboard>.dashboard_text>.dashboard_input>.month{
+  width: 22px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+}
 /*Header Main End*/
