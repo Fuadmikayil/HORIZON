@@ -254,4 +254,20 @@ nav>.Upgrade>h5 {
   background-color: transparent;
   color: white;
 }
+.header_main>.Total>.dashboard>.dashboard_text>h2{
+  color: white;
+}
+
+.header_main>.Total>.dashboard>.dashboard_text>.Total_text{
+  color: rgba(163, 174, 208, 1);
+  font-weight: 500;
+
+}
+.header_main>.Total>.dashboard>.dashboard_text>.Total_text>span{
+  color: rgba(1, 181, 116, 1);
+  padding-left: 10px;
+}
+.header_main>.Total>.dashboard>.dashboard_text>.Total_text>span>i{
+  font-size: 13px;
+}
 /*Header Main End*/
