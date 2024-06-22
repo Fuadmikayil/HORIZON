@@ -235,40 +235,53 @@ nav>.Upgrade>h5 {
   border-radius: 20px;
   padding: 20px;
 }
-.header_main>.Total>.dashboard>.dashboard_text>.dashboard_input{
+.header_main>.Total>.dashboard>.dashboard_wrapper{
+  display: flex;
+  align-items: end;
+  width: 100%;
+  justify-content: space-between;
+}
+.header_main>.Total>.dashboard>.dashboard_wrapper>img{
+  width: 65%;
+  height: 100%;
+  object-fit: cover;
+}
+.header_main>.Total>.dashboard>.dashboard_wrapper>.dashboard_text{
+  
+}
+.header_main>.Total>.dashboard>.dashboard_wrapper>.dashboard_text>.dashboard_input{
   background-color: rgba(27, 37, 75, 1);
   color: white;
   display: flex;
   gap: 5px;
-  width: 130px;
   padding: 5px;
   align-items: center;
   border-radius: 7px;
 }
-.header_main>.Total>.dashboard>.dashboard_text>.dashboard_input>.month{
-  width: 22px;
+.header_main>.Total>.dashboard>.dashboard_wrapper>.dashboard_text>.dashboard_input>.month{
+  width: 21px;
   font-size: 20px;
   background-color: transparent;
   color: white;
 }
-.header_main>.Total>.dashboard>.dashboard_text>h2{
+.header_main>.Total>.dashboard>.dashboard_wrapper>.dashboard_text>h2{
   color: white;
   padding-top: 20px;
 }
 
-.header_main>.Total>.dashboard>.dashboard_text>.Total_text{
+.header_main>.Total>.dashboard>.dashboard_wrapper>.dashboard_text>.Total_text{
   color: rgba(163, 174, 208, 1);
   font-weight: 500;
 
 }
-.header_main>.Total>.dashboard>.dashboard_text>.Total_text>span{
+.header_main>.Total>.dashboard>.dashboard_wrapper>.dashboard_text>.Total_text>span{
   color: rgba(1, 181, 116, 1);
   padding-left: 3px;
 }
-.header_main>.Total>.dashboard>.dashboard_text>.Total_text>span>i{
+.header_main>.Total>.dashboard>.dashboard_wrapper>.dashboard_text>.Total_text>span>i{
   font-size: 13px;
 }
-.header_main>.Total>.dashboard>.dashboard_text>.track{
+.header_main>.Total>.dashboard>.dashboard_wrapper>.dashboard_text>.track{
   color: rgba(1, 181, 116, 1);
   font-size: 20px;
   padding-top: 15px;
@@ -278,7 +291,7 @@ nav>.Upgrade>h5 {
   gap: 5px;
   font-weight: 500;  
 }
-.header_main>.Total>.dashboard>.dashboard_text>.track>i{
+.header_main>.Total>.dashboard>.dashboard_wrapper>.dashboard_text>.track>i{
   font-size: 20px;
   color: white;
   background-color:  rgba(1, 181, 116, 1);
@@ -311,21 +324,43 @@ nav>.Upgrade>h5 {
 .header_main>.Total>.dashboard>.revenue_img{
   width: 100%;
   object-fit: cover;
-  padding-top: 10px;
+  height: 160px;
 }
 
 /*checktable Start*/
-.header_main>.Total>.dashboard>.checktable{
+.header_main>.Total>.dashboard>.checktable_wapper{
   display: flex;
+  gap: 4px;
   justify-content: space-between;
-  width: 100%;
-  background-color: rebeccapurple;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-.header_main>.Total>.dashboard>.checktable>tbody>tr>th{
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable>h5{
   color:rgba(163, 174, 208, 1);
   display: inline-block;
+  align-items: start;
 }
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable>h6{
+  color:rgba(163, 174, 208, 1);
+  margin-top: 10px;
+  font-size: 13px;
+}
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable>label{
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+  
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable>label>h5{
+  color: white;
+  font-size: 12px;
 
+}
 /*checktable End*/
 /*Header Main End*/
