@@ -712,8 +712,67 @@ nav>.Upgrade>h5 {
   border-radius: 20px;
   background: rgba(117, 81, 255, 1);
   color: white;
-
+  cursor: pointer;
 }
 
 /*products info End*/
+.header_main>.Total>.dashboard4{
+  padding: 20px;
+  width: calc(100% / 4 - 10px);
+}
+.header_main>.Total>.dashboard4>.users{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+  margin: 10px 0;
+  background-color: rgb(27, 37, 75);
+  padding: 6px 0;
+  border-radius: 20px;
+  
+}
+.header_main>.Total>.dashboard4>.users>img{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position:top;
+}
+.header_main>.Total>.dashboard4>.users>.users_text{
+  color: white;
+}
+.header_main>.Total>.dashboard4>.users>.users_text>h5{
+  color: rgba(163, 174, 208, 1);
+}
+.header_main>.Total>.dashboard4>.users>i{
+  font-size: 25px;
+  color: white;
+  margin: auto 0;
+  cursor: pointer;
+}
+.header_main>.Total>.dashboard5{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+.header_main>.Total>.dashboard5>img{
+  width: 70px;
+}
+
+.header_main>.Total>.dashboard5>span{
+  color: rgba(163, 174, 208, 1);
+  font-size: 12px;
+}
+.header_main>.Total>.dashboard5>button{
+  width: 100%;
+  border-radius: 20px;
+  background-color: #4318FF;
+  padding: 12px 0;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  cursor: pointer;
+}
 /*Header Main End*/
