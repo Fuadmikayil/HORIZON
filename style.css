@@ -387,7 +387,7 @@ nav>.Upgrade>h5 {
 /*checktable End*/
 /*traffic Start*/
 .header_main>.Total>.traffic {
-  width: calc(50% / 2 - 10px );
+  width: calc(50% / 2 - 10px);
   background-color: rgb(17, 28, 68);
   border-radius: 20px;
   padding: 10px;
@@ -445,12 +445,14 @@ nav>.Upgrade>h5 {
   font-size: 11px;
   color: rgba(163, 174, 208, 1);
 }
-.header_main>.Total>.traffic>.traffic_text>h6>i{
+
+.header_main>.Total>.traffic>.traffic_text>h6>i {
   font-size: 10px;
   margin-left: 3px;
   cursor: pointer;
 }
-.header_main>.Total>.traffic>.circle{
+
+.header_main>.Total>.traffic>.circle {
   width: 130px;
   height: 130px;
   border-radius: 50%;
@@ -459,7 +461,8 @@ nav>.Upgrade>h5 {
   overflow: hidden;
   position: relative;
 }
-.header_main>.Total>.traffic>.circle>.square{
+
+.header_main>.Total>.traffic>.circle>.square {
   width: 0;
   height: 0;
   border-left: 70px solid transparent;
@@ -471,14 +474,16 @@ nav>.Upgrade>h5 {
   transform: rotate(142deg);
   z-index: 5;
 }
-.header_main>.Total>.traffic>.circle>.r2{
+
+.header_main>.Total>.traffic>.circle>.r2 {
   border-bottom-color: rgba(57, 184, 255, 1);
-  top:  29%;
+  top: 29%;
   left: -30%;
   transform: rotate(74deg);
   z-index: 3;
 }
-.header_main>.Total>.traffic>.staticbar{
+
+.header_main>.Total>.traffic>.staticbar {
   width: 100%;
   border-radius: 20px;
   height: 70px;
@@ -488,55 +493,227 @@ nav>.Upgrade>h5 {
   justify-content: center;
   gap: 20px;
 }
-.header_main>.Total>.traffic>.staticbar>.staticbar_text{
+
+.header_main>.Total>.traffic>.staticbar>.staticbar_text {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 3px;
 }
-.header_main>.Total>.traffic>.staticbar>.staticbar_text>h2{
+
+.header_main>.Total>.traffic>.staticbar>.staticbar_text>h2 {
   font-size: 12px;
   color: rgba(163, 174, 208, 1);
   margin-right: 20px;
 
 }
-.header_main>.Total>.traffic>.staticbar>.staticbar_text>h2>.minicricle{
+
+.header_main>.Total>.traffic>.staticbar>.staticbar_text>h2>.minicricle {
   width: 10px;
   height: 10px;
   display: inline-block;
   border-radius: 50%;
   background-color: blueviolet;
-  
+
 }
-.header_main>.Total>.traffic>.staticbar>.staticbar_text>h3{
+
+.header_main>.Total>.traffic>.staticbar>.staticbar_text>h3 {
   color: white;
   font-size: 14px;
 }
-.header_main>.Total>.traffic>.staticbar>.line{
+
+.header_main>.Total>.traffic>.staticbar>.line {
   border-right: 1px solid gray;
 }
-.header_main>.Total>.dashboard>.checktable_wapper>.checktable>.checktableh5{
+
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable>.checktableh5 {
   color: white;
   margin-top: 10px;
 
 }
-.header_main>.Total>.dashboard>.checktable_wapper>.checktable>img{
+
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable>img {
   margin-top: 20px;
 
 }
-.header_main>.Total>.dashboard>.checktable_wapper>.checktable>.line{
+
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable>.line {
   border-bottom: 1px solid gray;
 }
-.header_main>.Total>.dashboard>.checktable_wapper>.checktable>.Tasks>label{
+
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable>.Tasks>label {
   display: flex;
   gap: 5px;
   color: white;
+  margin-bottom: 10px;
 }
-.header_main>.Total>.dashboard>.checktable_wapper>.checktable2>i{
+
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable2 {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 17px;
+}
+
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable2>i {
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+}
+
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable2>.h9 {
+  font-weight: 400;
+  font-size: 18px;
+  background-color: rgba(27, 37, 75, 1);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/*traffic End*/
+
+/*date Start*/
+.header_main>.Total>.dashboard2 {
+  width: calc(50% / 2 - 10px);
+  background: rgba(17, 28, 68, 1);
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+
+}
+
+.header_main>.Total>.dashboard2>.date {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.header_main>.Total>.dashboard2>.date>h3>i {
+  cursor: pointer;
+}
+
+.header_main>.Total>.dashboard2>.date_day_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.header_main>.Total>.dashboard2>.date_day_wrapper>.day_month {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
   color: white;
 }
-/*traffic End*/
+
+.header_main>.Total>.dashboard2>.date_day_wrapper>.day_month>h6 {
+  font-size: 12px;
+}
+
+/*date End*/
+/*products info Start*/
+.header_main>.Total>.dashboard3 {
+  width: calc(100% / 4 - 10px);
+  background: rgba(17, 28, 68, 1);
+  border-radius: 20px;
+  color: white;
+  padding: 20px 0px 0px 0px;
+
+}
+
+.header_main>.Total>.dashboard3>.productsinfo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+}
+
+.header_main>.Total>.dashboard3>.productsinfo>i {
+  font-size: 25px;
+  background-color: rgba(27, 37, 75, 1);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.header_main>.Total>.dashboard3>.products_text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+}
+
+.header_main>.Total>.dashboard3>.productsinfo>.products_text>h4 {
+  font-size: 14px;
+  color: rgba(163, 174, 208, 1);
+}
+
+.header_main>.Total>.dashboard3>.productsinfo>.products_text>h3 {
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.header_main>.Total>.dashboard3>h4 {
+  padding: 10px 20px;
+  margin-bottom: 5px;
+
+}
+
+.header_main>.Total>.dashboard3>.about {
+  width: 100%;
+  background: rgba(27, 37, 75, 1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header_main>.Total>.dashboard3>.about>.timer {
+  display: flex;
+  gap: 10px;
+}
+
+.header_main>.Total>.dashboard3>.about>.timer>h4 {
+  color: white;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+}
+
+.header_main>.Total>.dashboard3>.about>.timer>h4>i {
+  margin-right: 6px;
+  font-size: 20px;
+}
+
+.header_main>.Total>.dashboard3>.about>.timer>h4>.bx-timer {
+  color: rgb(11, 250, 7);
+}
+
+.header_main>.Total>.dashboard3>.about>.timer>h4>.bx-play-circle {
+  color: rgb(250, 15, 7);
+}
+
+.header_main>.Total>.dashboard3>.about>.about_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header_main>.Total>.dashboard3>.about>.about_btn>img {
+  width: 110px;
+  object-fit: cover;
+}
+
+.header_main>.Total>.dashboard3>.about>.about_btn>button {
+  width: 128px;
+  height: 40px;
+  border-radius: 20px;
+  background: rgba(117, 81, 255, 1);
+  color: white;
+
+}
+
+/*products info End*/
 /*Header Main End*/
