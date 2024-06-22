@@ -515,5 +515,10 @@ nav>.Upgrade>h5 {
 .header_main>.Total>.traffic>.staticbar>.line{
   border-right: 1px solid gray;
 }
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable>.checktableh5{
+  color: white;
+  margin-top: 10px;
+
+}
 /*traffic End*/
 /*Header Main End*/
