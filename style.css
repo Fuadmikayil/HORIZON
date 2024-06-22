@@ -520,5 +520,23 @@ nav>.Upgrade>h5 {
   margin-top: 10px;
 
 }
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable>img{
+  margin-top: 20px;
+
+}
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable>.line{
+  border-bottom: 1px solid gray;
+}
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable>.Tasks>label{
+  display: flex;
+  gap: 5px;
+  color: white;
+}
+.header_main>.Total>.dashboard>.checktable_wapper>.checktable2>i{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: white;
+}
 /*traffic End*/
 /*Header Main End*/
