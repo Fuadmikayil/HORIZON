@@ -775,4 +775,8 @@ nav>.Upgrade>h5 {
   margin-top: 10px;
   cursor: pointer;
 }
+.header_main>.Total>.dashboard6>img{
+  width: 100%;
+  height: 60%;
+}
 /*Header Main End*/
