@@ -722,7 +722,6 @@ nav>.Upgrade>h5 {
 }
 .header_main>.Total>.dashboard4>.users{
   display: flex;
-  gap: 10px;
   width: 100%;
   justify-content: space-between;
   margin: 10px 0;
@@ -732,8 +731,8 @@ nav>.Upgrade>h5 {
   
 }
 .header_main>.Total>.dashboard4>.users>img{
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
   object-position:top;
@@ -775,8 +774,45 @@ nav>.Upgrade>h5 {
   margin-top: 10px;
   cursor: pointer;
 }
-.header_main>.Total>.dashboard6>img{
+.header_main>.Total>.dashboard6{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.header_main>.Total>.dashboard6>.imgs{
   width: 100%;
-  height: 60%;
+  background: url(./images/cofe.svg);
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+}
+.header_main>.Total>.dashboard6>.imgs>img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(40%,40%);
+}
+.header_main>.Total>.dashboard6>.imgs>i{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: white;
+  font-size: 18px;
+  background: linear-gradient(112.83deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0) 110.84%);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.header_main>.Total>.dashboard6>.imgs_text>h3{
+  color: white;
+}
+.header_main>.Total>.dashboard6>.imgs_text>h4{
+  color: rgba(163, 174, 208, 1);
+  margin-top: 5px;
 }
 /*Header Main End*/
