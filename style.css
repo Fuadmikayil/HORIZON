@@ -833,3 +833,16 @@ nav>.Upgrade>h5 {
   color: white;
 }
 /*Header Main End*/
+
+@media screen and  (max-width:1230px) {
+  .header_main>.Total>.dashboard{
+    width: 100%;
+  }
+  .header_main>.Total>.traffic{
+    width: 49%;
+  }
+  .header_main>.Total>.dashboard3{
+    width: 80%;
+    margin:  0 auto;
+  }
+}
